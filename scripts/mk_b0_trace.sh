@@ -35,7 +35,7 @@ if [ -z ${2+x} ]; then
 else
 	OUTPATH=$(dirname $2)
 	if [ $(echo $2 | rev | cut -c1) == "/" ]; then
-		echo "[output basename] = string or /path/string" 
+		echo "`date` - `basename $0` - ERROR: [output basename] = string or /path/string" 
 		exit 1
 	elif [ $OUTPATH == "." ]; then
 		OUTBASENAME="${FILEPATH}${2}"
