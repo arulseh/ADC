@@ -25,5 +25,7 @@ to run on mk_adc.sh output.
 
 Example:
 bash adc_wrapper.sh dwi_file.nii.gz
+
 bash adc_wrapper.sh /path/to/dwi_file Subj0001_20190728
+
 bash /path/to/adc_wrapper.sh dwi_file /path/to/study_adcs/Subj0004_20190131
