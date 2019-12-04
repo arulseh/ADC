@@ -1,6 +1,6 @@
 Scripts for processing DWI-ADC data, as published in:<br/>
-Rulseh AM, Vymazal J. Whole Brain Apparent Diffusion Coefficient Measurements Correlate with Survival in Glioblastoma Patients.<br/>
-doi: 
+Rulseh AM, Vymazal J. Whole Brain Apparent Diffusion Coefficient Measurements Correlate with Survival in Glioblastoma Patients. Journal of Neuro-Oncology, (), 1-6.<br/>
+doi: 10.1007/s11060-019-03357-y
 
 Basic steps:<br/>1. dicom to nifti conversion<br/>2. create separate b0 and TRACE files if not present<br/>3. calculate ADC maps, brain extract and standardize<br/>4. get measurements
 
